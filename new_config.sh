@@ -81,7 +81,7 @@ sudo apt install -y autokey-gtk
 mkdir -p ~/.config/autokey/data
 cp -r autokey/my_scripts ~/.config/autokey/data/
 cp autokey/autokey.json ~/.config/autokey/
-cp -r autokey/.scripts ~/
+cp -r autokey/scripts ~/.scripts
 
 
 # install ncspot
