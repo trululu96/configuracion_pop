@@ -8,16 +8,19 @@ sudo apt install -y  neofetch
 # gnome tweak
 sudo apt install -y gnome-tweak-tool
 
+# install vim
+sudo apt install -y vim-gtk3
+
 
 # chrome
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt install ./google-chrome-stable_current_amd64.deb
+sudo apt install -y ./google-chrome-stable_current_amd64.deb
 rm google-chrome-stable_current_amd64.deb
 
 # purge firefox
 
-sudo apt purge firefox
+sudo apt purge -y firefox
 
 #requires input
 
@@ -38,19 +41,19 @@ sudo apt install code -y
 
 # install extensions
 
-code --install-extension --force eamodio.gitlens
-code --install-extension --force GrapeCity.gc-excelviewer
-code --install-extension --force Gruntfuggly.activitusbar
-code --install-extension --force Ikuyadeu.r
-code --install-extension --force ms-python.python
-code --install-extension --force ms-python.vscode-pylance
-code --install-extension --force ms-toolsai.jupyter
-code --install-extension --force ms-vscode.cpptools
-code --install-extension --force Nightrains.robloxlsp
-code --install-extension --force s-nlf-fh.glassit
-code --install-extension --force vscodevim.vim
-code --install-extension --force wraith13.zoombar-vscode
-code --install-extension --force zhuangtongfa.material-theme
+code --install-extension eamodio.gitlens
+code --install-extension GrapeCity.gc-excelviewer
+code --install-extension Gruntfuggly.activitusbar
+code --install-extension Ikuyadeu.r
+code --install-extension ms-python.python
+code --install-extension ms-python.vscode-pylance
+code --install-extension ms-toolsai.jupyter
+code --install-extension ms-vscode.cpptools
+code --install-extension Nightrains.robloxlsp
+code --install-extension s-nlf-fh.glassit
+code --install-extension vscodevim.vim
+code --install-extension wraith13.zoombar-vscode
+code --install-extension zhuangtongfa.material-theme
 
 # change settings 
 
@@ -79,22 +82,11 @@ mkdir -p ~/.config/autokey/data
 cp -r my_scripts ~/.config/autokey/data/
 cp autokey.json ~/.config/autokey/
 
-# install fusuma 
-
-sudo gpasswd -a $USER input
-newgrp input
-sudo apt install -y libinput-tools xdotool  
-sudo apt install -y ruby 
-sudo gem install fusuma
-
-# config files
-mkdir -p ~/.config/fusuma
-cp fusuma/config.yml ~/.config/fusuma/
 
 # install ncspot
 sudo apt install -y libncursesw5-dev libdbus-1-dev libpulse-dev libssl-dev libxcb1-dev libxcb-render0-dev libxcb-shape0-dev libxcb-xfixes0-dev
 
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+sudo apt install -y cargo
 
 cargo install ncspot
 
@@ -135,6 +127,31 @@ mkdir -p ~/.config/rstudio/themes
 cp rstudio/atom.rstheme ~/.config/rstudio/themes/
 cp rstudio/rstudio-prefs.json ~/.config/rstudio/
 
+
+# devilspie2
+
+sudo apt install -y devilspie2
+
+cp -r devilspie2 ~/config/
+
+
+# configuraciones iniciales 
+
+cp -r autostart ~/.config/autostart
+
+# install fusuma 
+
+sudo gpasswd -a $USER input
+newgrp input
+sudo apt install -y libinput-tools xdotool  
+sudo apt install -y ruby 
+sudo gem install fusuma
+
+# config files
+mkdir -p ~/.config/fusuma
+cp fusuma/config.yml ~/.config/fusuma/
+
+
 # onedrive 
 sudo apt install -y build-essential
 sudo apt install -y libcurl4-openssl-dev
@@ -158,15 +175,3 @@ cd ..
 mkdir -p ~/.config/onedrive
 cp onedrive_i/config ~/.config/onedrive/
 cp onedrive_i/sync_list ~/.config/onedrive/
-
-
-# devilspie2
-
-sudo apt install -y devilspie2
-
-cp -r devilspie2 ~/config/
-
-
-# configuraciones iniciales 
-cp -r autostart ~/.config/autostart
-

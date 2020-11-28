@@ -1,3 +1,4 @@
 # profile for everything 
-dconf load / < complete_conf.dconf
+dconf load / < complete-conf.dconf
 
+cat ~/.bashrc app_rc > ~/.bashrc

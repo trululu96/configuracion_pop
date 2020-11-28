@@ -1,0 +1,13 @@
+
+# only show two dir deep
+PROMPT_DIRTRIM=2
+
+export PATH="/home/arrakis/.cargo/bin:$PATH"
+
+
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
+set -o vi
+neofetch
+
