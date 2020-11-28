@@ -1,12 +1,12 @@
 # update and upgrade
 sudo apt update
-sudo apt upgrade
+sudo apt upgrade -y 
 
 # neofetch
-sudo apt install neofetch
+sudo apt install -y  neofetch
 
 # gnome tweak
-sudo apt install gnome-tweak-tool
+sudo apt install -y gnome-tweak-tool
 
 
 # chrome
@@ -61,7 +61,7 @@ cp Code/keybindings.json ~/.config/Code/User/
 
 # cloud service
 
-sudo apt install libssl-dev
+sudo apt install -y libssl-dev
 echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
 
 sudo apt-get install apt-transport-https ca-certificates gnupg
@@ -72,7 +72,7 @@ sudo apt-get update && sudo apt-get install google-cloud-sdk -y
 
 # install autokey
 
-sudo apt install autokey-gtk
+sudo apt install -y autokey-gtk
 
 # copy the config files 
 mkdir -p ~/.config/autokey/data
@@ -92,7 +92,7 @@ mkdir -p ~/.config/fusuma
 cp fusuma/config.yml ~/.config/fusuma/
 
 # install ncspot
-sudo apt install libncursesw5-dev libdbus-1-dev libpulse-dev libssl-dev libxcb1-dev libxcb-render0-dev libxcb-shape0-dev libxcb-xfixes0-dev
+sudo apt install -y libncursesw5-dev libdbus-1-dev libpulse-dev libssl-dev libxcb1-dev libxcb-render0-dev libxcb-shape0-dev libxcb-xfixes0-dev
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
@@ -116,7 +116,7 @@ cp .xbindkeysrc ~/
 
 
 # r and R studio
-sudo apt install dirmngr gnupg apt-transport-https ca-certificates software-properties-common
+sudo apt install -y dirmngr gnupg apt-transport-https ca-certificates software-properties-common
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
 sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/'
 
