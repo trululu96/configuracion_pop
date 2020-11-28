@@ -1,0 +1,42 @@
+swipe:
+  4: 
+    up:
+      command: 'xdotool key ctrl+super+Down'
+      interval: 0.4
+    down:
+      command: 'xdotool key ctrl+super+Up'
+      interval: 0.4
+    left: 
+      command: 'xdotool key ctrl+Tab'
+      interval: 0.4
+    right:
+      command: 'xdotool key ctrl+Shift+Tab'
+      interval: 0.4
+
+  3:
+    left:
+      command: 'xdotool key alt+Right'
+    right:
+      command: 'xdotool key alt+Left' 
+    up:
+      command: 'xdotool key super'
+    down:
+      command: 'xdotool key Escape'
+
+pinch:
+  3:
+    in:
+      command: 'xdotool key super+y'
+    out:
+      command: 'xdotool key super+y' 
+  4: 
+    in:
+      command: 'nautilus'
+    out:
+      command: 'gnome-terminal --working-directory=$HOME'
+
+threshold:
+  pinch: 1.1
+interval:
+  pinch: 4
+  rotate: 4

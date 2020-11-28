@@ -1,0 +1,27 @@
+{
+    "type": "folder",
+    "title": "gcloud",
+    "modes": [
+        3
+    ],
+    "usageCount": 76,
+    "showInTrayMenu": false,
+    "abbreviation": {
+        "abbreviations": [],
+        "backspace": true,
+        "ignoreCase": false,
+        "immediate": false,
+        "triggerInside": false,
+        "wordChars": "[\\w]"
+    },
+    "hotkey": {
+        "modifiers": [
+            "<alt>"
+        ],
+        "hotKey": "g"
+    },
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    }
+}

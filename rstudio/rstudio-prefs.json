@@ -1,0 +1,34 @@
+{
+    "panes": {
+        "quadrants": [
+            "Source",
+            "TabSet2",
+            "TabSet1",
+            "Console"
+        ],
+        "tabSet1": [
+            "Environment",
+            "History",
+            "Files",
+            "Plots",
+            "Connections",
+            "Help",
+            "Build",
+            "Tutorial",
+            "Presentation"
+        ],
+        "tabSet2": [
+            "Packages",
+            "VCS",
+            "Viewer"
+        ],
+        "console_left_on_top": false,
+        "console_right_on_top": false
+    },
+    "editor_theme": "One Dark",
+    "posix_terminal_shell": "bash",
+    "jobs_tab_visibility": "shown",
+    "shiny_viewer_type": "browser",
+    "source_with_echo": true,
+    "editor_keybindings": "vim"
+}

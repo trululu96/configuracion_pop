@@ -1,0 +1,32 @@
+{
+    "python.pythonPath": "/home/arrakis/anaconda3/bin/python",
+    "glassit.alpha": 250,
+    "editor.rulers": [
+        72,79
+    ],
+    "window.menuBarVisibility": "default",
+    "workbench.activityBar.visible": false,
+    "editor.minimap.enabled": false,
+    "files.autoSave": "off",
+    "keyboard.dispatch": "keyCode",
+    "python.languageServer": "Pylance",
+    "files.exclude": {
+        "**/*.pyc": {"when": "$(basename).py"},
+        "**/__pycache__": true,
+        },
+        "python.analysis.diagnosticSeverityOverrides": {
+            "reportUnboundVariable": "none"
+        },
+        "window.zoomLevel": 0.2676050217395348,
+        "r.bracketedPaste": true,
+        "r.rterm.linux": "/home/arrakis/anaconda3/bin/radian",
+        "r.rterm.option": [
+        "--no-save",
+        "--no-restore",
+        "--r-binary=/usr/local/bin/R"
+        ],
+        "workbench.colorTheme": "One Dark Pro",
+        "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+        "oneDarkPro.bold": true,
+        "jupyter.sendSelectionToInteractiveWindow": true,
+}

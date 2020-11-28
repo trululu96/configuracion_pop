@@ -1,0 +1,528 @@
+[com/github/donadigo/eddy]
+mime-types=['application/vnd.debian.binary-package', 'application/x-deb']
+window-x=228
+window-y=483
+
+[com/system76/hidpi]
+enable=false
+mode='hidpi'
+
+[desktop/ibus/general]
+preload-engines=['xkb:latam::spa']
+version='1.5.22'
+
+[io/elementary/appcenter/settings]
+last-refresh-time=int64 1606518405
+window-maximized=false
+window-position=(26, 23)
+window-size=(378, 448)
+
+[org/gnome/Geary]
+folder-list-pane-position-horizontal=100
+messages-pane-position=351
+migrated-config=true
+window-height=473
+window-width=954
+
+[org/gnome/Totem]
+active-plugins=['autoload-subtitles', 'apple-trailers', 'recent', 'vimeo', 'screenshot', 'screensaver', 'media-player-keys', 'rotation', 'open-directory', 'variable-rate', 'movie-properties', 'skipto', 'save-file']
+subtitle-encoding='UTF-8'
+
+[org/gnome/baobab/ui]
+window-size=(2552, 1358)
+window-state=87168
+
+[org/gnome/calculator]
+accuracy=9
+angle-units='degrees'
+base=16
+button-mode='programming'
+number-format='automatic'
+show-thousands=false
+show-zeroes=false
+source-currency=''
+source-units='degree'
+target-currency=''
+target-units='radian'
+window-position=(962, 221)
+word-size=64
+
+[org/gnome/calendar]
+active-view='month'
+window-maximized=false
+window-position=(4, 31)
+window-size=(1912, 998)
+
+[org/gnome/control-center]
+last-panel='bluetooth'
+
+[org/gnome/desktop/app-folders/folders/Pop-Office]
+apps=['libreoffice-calc.desktop', 'libreoffice-draw.desktop', 'libreoffice-impress.desktop', 'libreoffice-math.desktop', 'libreoffice-startcenter.desktop', 'libreoffice-writer.desktop']
+name='Office'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Pop-System]
+apps=['gnome-language-selector.desktop', 'gnome-session-properties.desktop', 'gnome-system-monitor.desktop', 'im-config.desktop', 'nm-connection-editor.desktop', 'nvidia-settings.desktop', 'org.gnome.baobab.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.PowerStats.desktop', 'org.gnome.seahorse.Application.desktop', 'software-properties-gnome.desktop', 'system76-driver.desktop', 'system76-firmware.desktop']
+name='System'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Pop-Utility]
+apps=['com.github.donadigo.eddy.desktop', 'com.system76.Popsicle.desktop', 'gucharmap.desktop', 'info.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.Extensions.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.font-viewer.desktop', 'org.gnome.Screenshot.desktop', 'org.gnome.Totem.desktop', 'simple-scan.desktop', 'yelp.desktop']
+name='Utilities'
+translate=true
+
+
+[org/gnome/desktop/calendar]
+show-weekdate=false
+
+[org/gnome/desktop/input-sources]
+current=uint32 0
+per-window=false
+show-all-sources=false
+sources=[('xkb', 'latam')]
+xkb-options=['shift:both_capslock_cancel', 'caps:escape']
+
+[org/gnome/desktop/interface]
+clock-show-weekday=true
+document-font-name='Roboto Slab 12'
+enable-animations=true
+font-name='Fira Sans Semi-Light 12'
+gtk-im-module='gtk-im-context-simple'
+gtk-theme='Pop-dark'
+icon-theme='Pop'
+monospace-font-name='Fira Mono 12'
+toolkit-accessibility=false
+
+[org/gnome/desktop/notifications]
+application-children=['io-elementary-appcenter', 'firefox', 'google-chrome', 'org-gnome-nautilus', 'com-github-donadigo-eddy', 'spotify', 'autokey-gtk', 'org-gnome-gedit', 'org-gnome-terminal', 'rstudio', 'org-gnome-geary', 'org-pop-os-transition', 'io-dbeaver-dbeavercommunity', 'libreoffice-calc', 'gnome-network-panel', 'gnome-power-panel', 'teams', 'code', 'audacity', 'libreoffice-writer', 'com-github-xournalpp-xournalpp', 'openshot-qt', 'discord-discord', 'org-gnome-evince', 'steam', 'us-zoom-zoom', 'libreoffice-impress', 'dolphin-emu', 'com-transmissionbt-transmission', 'xournalpp-xournalpp', 'org-gnome-eog', 'org-gnome-fileroller', 'org-gnome-evolution-alarm-notify', 'inkscape', 'net-lutris-lutris', 'org-gnome-tweaks', 'com-obsproject-studio', 'org-gnome-shell-extensions-gsconnect', 'org-gnome-shell-extensions-gsconnect-preferences', 'org-gnome-chromegnomeshell', 'org-gnome-shell-extensions', 'com-microsoft-teams', 'gnome-control-center']
+show-banners=true
+show-in-lock-screen=true
+
+[org/gnome/desktop/notifications/application/autokey-gtk]
+application-id='autokey-gtk.desktop'
+
+[org/gnome/desktop/notifications/application/code]
+application-id='code.desktop'
+
+[org/gnome/desktop/notifications/application/com-github-donadigo-eddy]
+application-id='com.github.donadigo.eddy.desktop'
+
+[org/gnome/desktop/notifications/application/com-github-xournalpp-xournalpp]
+application-id='com.github.xournalpp.xournalpp.desktop'
+
+[org/gnome/desktop/notifications/application/com-microsoft-teams]
+application-id='com.microsoft.Teams.desktop'
+
+[org/gnome/desktop/notifications/application/com-obsproject-studio]
+application-id='com.obsproject.Studio.desktop'
+
+
+[org/gnome/desktop/notifications/application/gnome-control-center]
+application-id='gnome-control-center.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-network-panel]
+application-id='gnome-network-panel.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
+[org/gnome/desktop/notifications/application/google-chrome]
+application-id='google-chrome.desktop'
+
+[org/gnome/desktop/notifications/application/io-elementary-appcenter]
+application-id='io.elementary.appcenter.desktop'
+
+[org/gnome/desktop/notifications/application/libreoffice-calc]
+application-id='libreoffice-calc.desktop'
+
+[org/gnome/desktop/notifications/application/libreoffice-impress]
+application-id='libreoffice-impress.desktop'
+
+[org/gnome/desktop/notifications/application/libreoffice-writer]
+application-id='libreoffice-writer.desktop'
+
+[org/gnome/desktop/notifications/application/openshot-qt]
+application-id='openshot-qt.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-chromegnomeshell]
+application-id='org.gnome.ChromeGnomeShell.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-eog]
+application-id='org.gnome.eog.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-evince]
+application-id='org.gnome.Evince.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-evolution-alarm-notify]
+application-id='org.gnome.Evolution-alarm-notify.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-fileroller]
+application-id='org.gnome.FileRoller.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-geary]
+application-id='org.gnome.Geary.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-gedit]
+application-id='org.gnome.gedit.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-shell-extensions-gsconnect-preferences]
+application-id='org.gnome.Shell.Extensions.GSConnect.Preferences.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-shell-extensions-gsconnect]
+application-id='org.gnome.Shell.Extensions.GSConnect.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-shell-extensions]
+application-id='org.gnome.Shell.Extensions.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-terminal]
+application-id='org.gnome.Terminal.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-tweaks]
+application-id='org.gnome.tweaks.desktop'
+
+[org/gnome/desktop/notifications/application/org-pop-os-transition]
+application-id='org.pop_os.transition.desktop'
+
+[org/gnome/desktop/notifications/application/rstudio]
+application-id='rstudio.desktop'
+
+
+[org/gnome/desktop/notifications/application/xournalpp-xournalpp]
+application-id='xournalpp_xournalpp.desktop'
+
+[org/gnome/desktop/peripherals/keyboard]
+numlock-state=true
+
+[org/gnome/desktop/peripherals/mouse]
+accel-profile='adaptive'
+natural-scroll=false
+speed=-0.42647058823529416
+
+[org/gnome/desktop/peripherals/touchpad]
+disable-while-typing=true
+natural-scroll=true
+speed=0.31617647058823528
+two-finger-scrolling-enabled=true
+
+[org/gnome/desktop/privacy]
+disable-microphone=false
+report-technical-problems=true
+
+[org/gnome/desktop/search-providers]
+sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
+
+[org/gnome/desktop/session]
+idle-delay=uint32 300
+
+[org/gnome/desktop/sound]
+allow-volume-above-100-percent=true
+
+[org/gnome/desktop/wm/keybindings]
+move-to-monitor-down=['<Primary><Shift><Super>Down']
+move-to-monitor-left=['<Primary><Shift><Super>Left']
+move-to-monitor-right=['<Primary><Shift><Super>Right']
+move-to-monitor-up=['<Primary><Shift><Super>Up']
+move-to-workspace-down=['<Shift><Super>Down']
+move-to-workspace-up=['<Shift><Super>Up']
+switch-input-source=['<Primary><Shift><Alt><Super>asterisk']
+switch-input-source-backward=['<Primary><Alt><Super>asterisk']
+switch-to-workspace-down=['<Primary><Super>Down']
+switch-to-workspace-up=['<Primary><Super>Up']
+
+[org/gnome/desktop/wm/preferences]
+action-middle-click-titlebar='lower'
+button-layout='appmenu:minimize,close'
+titlebar-font='Fira Sans Semi-Bold 11'
+
+[org/gnome/eog/ui]
+sidebar=false
+
+[org/gnome/eog/view]
+background-color='rgb(0,0,0)'
+use-background-color=true
+
+[org/gnome/evince/default]
+window-ratio=(2.3529411764705883, 1.1944444444444444)
+
+[org/gnome/evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[org/gnome/file-roller/dialogs/extract]
+recreate-folders=true
+skip-newer=false
+
+[org/gnome/file-roller/file-selector]
+show-hidden=false
+sidebar-size=192
+window-size=(960, 872)
+
+[org/gnome/file-roller/listing]
+list-mode='as-folder'
+name-column-width=459
+show-path=false
+sort-method='name'
+sort-type='ascending'
+
+[org/gnome/file-roller/ui]
+sidebar-width=200
+window-height=653
+window-width=1274
+
+[org/gnome/gedit/plugins]
+active-plugins=['modelines', 'time', 'spell', 'filebrowser', 'docinfo']
+
+[org/gnome/gedit/preferences/editor]
+display-right-margin=true
+editor-font='Fira Mono 14'
+insert-spaces=true
+right-margin-position=uint32 72
+scheme='matrix'
+tabs-size=uint32 4
+use-default-font=false
+wrap-last-split-mode='word'
+
+[org/gnome/gedit/preferences/ui]
+show-tabs-mode='auto'
+
+[org/gnome/gedit/state/window]
+bottom-panel-size=140
+side-panel-active-page='GeditWindowDocumentsPanel'
+side-panel-size=200
+size=(475, 211)
+state=87040
+
+[org/gnome/gnome-system-monitor]
+current-tab='processes'
+maximized=false
+show-dependencies=false
+show-whose-processes='user'
+window-state=(2552, 1358, 4, 31)
+
+[org/gnome/gnome-system-monitor/disktreenew]
+col-0-visible=true
+col-0-width=235
+col-6-visible=true
+col-6-width=0
+
+[org/gnome/gnome-system-monitor/proctree]
+columns-order=[0, 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+sort-col=15
+sort-order=0
+
+[org/gnome/mutter]
+experimental-features=@as []
+overlay-key='Super_L'
+workspaces-only-on-primary=true
+
+[org/gnome/nautilus/compression]
+default-compression-format='zip'
+
+[org/gnome/nautilus/icon-view]
+default-zoom-level='standard'
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+search-filter-time-type='last_modified'
+search-view='list-view'
+
+[org/gnome/nautilus/window-state]
+initial-size=(954, 1006)
+maximized=false
+sidebar-width=168
+
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-enabled=true
+night-light-schedule-automatic=false
+night-light-schedule-from=17.933333333333337
+night-light-temperature=uint32 3508
+
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/']
+magnifier=@as []
+magnifier-zoom-in=@as []
+magnifier-zoom-out=@as []
+screenreader=@as []
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Alt><Super>c'
+command='code'
+name='code'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+binding='<Alt><Super>r'
+command='rstudio'
+name='R-studio'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
+binding='<Alt><Super>d'
+command='gnome-terminal --window --title="to_do" -e "vim /home/arrakis/OneDrive/COSAS/documents/to_do.md" --tab --title="grip" -e "grip -b /home/arrakis/OneDrive/COSAS/documents/to_do.md"'
+name='todo'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3]
+binding='<Alt><Super>h'
+command='libreoffice /home/arrakis/OneDrive/COSAS/documents/quantil/general/Tiempos.ods'
+name='horas'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4]
+binding='<Alt><Super>p'
+command='gnome-terminal -- sh -c "/home/arrakis/.cargo/bin/ncspot"'
+name='ncspot'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5]
+binding='<Super>u'
+command='xdotool set_desktop --relative 1'
+name='workspace down'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6]
+binding='<Super>i'
+command='xdotool set_desktop --relative -- -1'
+name='workspace up'
+
+[org/gnome/settings-daemon/plugins/power]
+power-button-action='suspend'
+
+[org/gnome/settings-daemon/plugins/xsettings]
+antialiasing='rgba'
+hinting='slight'
+
+[org/gnome/shell]
+app-picker-view=uint32 1
+command-history=['ncspot', 'ls', 're', 'R', 'r']
+disabled-extensions=@as []
+enabled-extensions=['alt-tab-raise-first-window@system76.com', 'always-show-workspaces@system76.com', 'batteryiconfix@kylecorry31.github.io', 'desktop-icons@csoriano', 'pop-shell@system76.com', 'pop-shop-details@system76.com', 'system76-power@system76.com', 'ubuntu-appindicators@ubuntu.com', 'no-title-bar@franglais125.gmail.com', 'gsconnect@andyholmes.github.io', 'cpupower@mko-sl.de', 'drop-down-terminal-x@bigbn.pro', 'impatience@gfxmonk.net']
+had-bluetooth-devices-setup=true
+
+[org/gnome/shell/extensions/cpupower]
+default-ac-profile='1345468334'
+default-battery-profile='2573877735'
+profiles=[(0, 10, false, 'Energy Saver', '722112999'), (8, 20, false, 'Quiet', '2573877735'), (20, 80, true, 'Multimedia', '1345468334'), (50, 100, true, 'High Performance', '2356129227')]
+show-arrow-in-taskbar=true
+show-freq-in-taskbar=true
+show-icon-in-taskbar=true
+taskbar-freq-unit-ghz=true
+
+[org/gnome/shell/extensions/gsconnect/messaging]
+window-maximized=false
+window-size=(640, 480)
+
+[org/gnome/shell/extensions/gsconnect/preferences]
+window-maximized=false
+window-size=(701, 440)
+
+[org/gnome/shell/extensions/net/gfxmonk/impatience]
+speed-factor=0.5
+
+[org/gnome/shell/extensions/no-title-bar]
+button-position='after-status-area'
+buttons-for-all-win=true
+buttons-for-snapped=false
+change-appmenu=true
+hide-buttons=false
+only-main-monitor=true
+
+[org/gnome/shell/extensions/pop-shell]
+activate-launcher=['<Super>space']
+active-hint=true
+gap-inner=uint32 1
+gap-outer=uint32 1
+hint-color-rgba='rgb(25,156,190)'
+show-title=true
+tile-by-default=false
+
+[org/gnome/system/location]
+enabled=false
+
+[org/gnome/terminal/legacy]
+mnemonics-enabled=false
+
+[org/gnome/terminal/legacy/profiles:]
+default='6017ea7c-42c7-45a3-917d-6ea4f8f96d0f'
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9', 'bfd2916c-1eb6-4ade-815c-0eee4ba30ba9', '147f35d4-ec63-4438-993a-cae9143b8c42', '6017ea7c-42c7-45a3-917d-6ea4f8f96d0f']
+
+[org/gnome/terminal/legacy/profiles:/:147f35d4-ec63-4438-993a-cae9143b8c42]
+background-color='rgb(0,0,0)'
+background-transparency-percent=74
+bold-color-same-as-fg=false
+cursor-foreground-color='rgb(59,148,159)'
+foreground-color='rgb(255,255,255)'
+highlight-foreground-color='rgb(127,133,129)'
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='custom'
+
+[org/gnome/terminal/legacy/profiles:/:6017ea7c-42c7-45a3-917d-6ea4f8f96d0f]
+background-color='#282c34'
+background-transparency-percent=4
+bold-color='#ABB2BF'
+bold-color-same-as-fg=true
+cursor-foreground-color='rgb(59,148,159)'
+foreground-color='#abb2bf'
+highlight-foreground-color='rgb(127,133,129)'
+palette=['#000000', '#e06c75', '#98c379', '#d19a66', '#61afef', '#c678dd', '#56b6c2', '#abb2bf', '#5c6370', '#e06c75', '#98c379', '#d19a66', '#61afef', '#c678dd', '#56b6c2', '#ffffff']
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='One Dark'
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-color='rgb(0,0,0)'
+background-transparency-percent=18
+bold-color='rgb(115,196,143)'
+bold-color-same-as-fg=false
+bold-is-bright=true
+cursor-background-color='rgb(177,177,246)'
+cursor-colors-set=false
+font='Fira Mono 13'
+foreground-color='rgb(211,215,207)'
+palette=['rgb(46,52,54)', 'rgb(35,106,171)', 'rgb(78,154,6)', 'rgb(196,160,0)', 'rgb(52,101,164)', 'rgb(117,80,123)', 'rgb(6,152,154)', 'rgb(211,215,207)', 'rgb(85,87,83)', 'rgb(239,41,41)', 'rgb(138,226,52)', 'rgb(252,233,79)', 'rgb(114,159,207)', 'rgb(173,127,168)', 'rgb(52,226,226)', 'rgb(238,238,236)']
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+
+[org/gnome/terminal/legacy/profiles:/:bfd2916c-1eb6-4ade-815c-0eee4ba30ba9]
+visible-name='hello'
+
+[org/gtk/settings/color-chooser]
+custom-colors=[(0.14117647058823529, 0.12156862745098039, 0.19215686274509805, 1.0), (0.099111111111111094, 0.61274774774774776, 0.7433333333333334, 1.0), (0.98431372549019602, 0.72156862745098038, 0.42352941176470588, 1.0), (0.13846666666666668, 0.41486400000000029, 0.67000000000000004, 1.0), (0.45098039215686275, 0.7686274509803922, 0.5607843137254902, 1.0), (0.4680808080808081, 0.46511111111111114, 0.60666666666666669, 1.0), (0.011764705882352941, 0.0, 0.5607843137254902, 1.0), (0.23063333333333344, 0.57970000000000022, 0.62333333333333341, 1.0)]
+selected-color=(true, 0.0, 0.0, 0.0, 1.0)
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=209
+sort-column='modified'
+sort-directories-first=false
+sort-order='descending'
+type-format='category'
+window-position=(718, 312)
+window-size=(1124, 769)
+
+[pro/bigbn/drop-down-terminal-x]
+background-color='#002b36'
+capture-focus-shortcut=['<Primary><Alt>apostrophe']
+color-palette-name='Solarized'
+color-scheme-name='Solarized dark'
+enable-open-new-terminal-in-current-directory=true
+enable-tabs=false
+first-start=false
+foreground-color='#839496'
+hide-on-escape=false
+hide-on-unfocus=false
+motr-version='1.6.0'
+multi-monitor-mode=true
+opening-animation-time=uint32 50
+other-shortcut=['<Primary>ntilde']
+terminal-position='Top'
+terminal-size='30%'
+transparency-level=uint32 95
+transparent-terminal=true
+
