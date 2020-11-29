@@ -6,4 +6,5 @@ d esté activo
 - instalar dropbox
 - hacer script para copiar la configuracion actual (seguramente gnome 
 seguira siendo muy manual)
+- para que funcione google cloud se tiene que definir un proyecto y definir la región y la zona.
 
